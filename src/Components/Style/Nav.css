@@ -1,0 +1,138 @@
+.title-room {
+  font-size: 28px;
+}
+.mp-title {
+  font-size: 30px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+.heart__mpgram__icon {
+  color: black;
+}
+.heart__mpgram__icon:hover {
+  color: black;
+}
+.dropdown-item {
+  font-size: 17px;
+}
+li {
+  float: left;
+}
+  
+li .mp-nav {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li .mp-nav:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+.header__mpgram__mp {
+  border: 1px solid #e9e9e9;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+.fa-home {
+  font-size: 1.8rem;
+  padding-right: 15px;
+}
+.fa-paper-plane-o {
+  font-size: 1.5rem;
+  padding-right: 15px;
+  color: black;
+  
+}
+
+.fa-paper-plane-o:hover{
+  color: black;
+  text-decoration: none;
+  
+}
+.fa-heart-o {
+  font-size: 1.5rem;
+  padding-right: 15px;
+  color: black;
+}
+.fa-heart-o:hover {
+  text-decoration: none;
+  color: black;
+}
+.fa-user-circle-o {
+  font-size: 1.5rem;
+  padding-right: 15px;
+  color: black;
+}
+.fa-user-circle-o:hover {
+  text-decoration: none;
+  color: black;
+} 
+.fa-plus-square {
+  font-size: 2.9rem;
+  color: rgb(89, 89, 109);
+  position: fixed;
+  right: 10px;
+  top: 600px;
+}
+.dropdown {
+  float: right;
+  margin-top: 1.5px;
+}
+.container {
+  font-size: 140%;
+}
+.fa-home::before {
+  font-size: 3.2rem;
+  line-height: 45px;
+}
+.fa-home:hover {
+  text-decoration: none;
+}
+.fa-paper-plane-o::before {
+  font-size: 2.5rem;
+  line-height: 45px;
+}
+.fa-heart-o::before {
+  font-size: 2.5rem;
+  line-height: 45px;
+}
+.fa-user-circle-o::before {
+  font-size: 2.5rem;
+  line-height: 45px;
+}
+.btn-mp-modal {
+  width: 100px;
+}
+.modal__search__users {
+  background-color: ivory;
+  width: 500px;
+  height: 50vh;
+  font-size: 1.8rem;
+}
+.search__btn__users {
+  position: absolute;
+  right: 0;
+  top: -11.766px;
+  height: 48px;
+  width: 50px;
+  line-height: 16px;
+}
+.search__input__users {
+  position: relative;
+}
